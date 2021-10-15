@@ -1,0 +1,22 @@
+.App-header {
+    align-items: center;
+    padding-right: 6rem;
+    padding-left: 1rem;
+}
+
+.App-header > .Logo {
+    max-height: 2rem;
+}
+
+.App-menu {
+    margin-left: auto;
+}
+
+.App-menu > ul {
+    width: 500px;
+    max-width: 500px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly ;
+
+}

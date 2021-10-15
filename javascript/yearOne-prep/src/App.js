@@ -1,23 +1,33 @@
+import logo from "./assets/logo.png";
+import "./styles/App.css";
 
-import './App.css';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header row">
+        <img src={logo} className="Logo" alt="Year One logo" width="200px"/>
+        <div className="App-menu">
+          <ul className="row">
+            <li>
+              <a href="./">Explore</a>
+            
+            </li>
+            <li>
+              <a href="./">Challenges</a>
+            </li>
+            <li>
+              <a href="./">Resources</a>
+            </li>
+            <li>
+             <a href="./">Community</a>
+            </li>
+          </ul>
+        </div>
       </header>
+      <div className="App-hero">
+          <h2>Code!</h2>
+      </div>
     </div>
   );
 }
